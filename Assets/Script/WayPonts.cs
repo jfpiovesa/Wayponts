@@ -12,8 +12,10 @@ public class WayPonts : MonoBehaviour
         float speed = 1.0f;// velocidade do objeto que ira patrulhar
 
     [SerializeField]
-        float accuracy = 1.0f;// velocida de quando chega no objeto do waypoints
-        float rotSpeed = 0.4f;// rotação na hora de ir pra outro ponto
+        float accuracy = 1.0f;// raio de quando chega no objeto do waypoints
+
+    [SerializeField]
+    float rotSpeed = 0.4f;// rotação na hora de ir pra outro ponto 
 
          Animator aima; // controle de animação
         void Start()
